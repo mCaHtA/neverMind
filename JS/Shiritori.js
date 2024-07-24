@@ -3,7 +3,6 @@ const $button = document.querySelector("button");
 const $input = document.querySelector("input");
 const $word = document.querySelector("#word");
 const $order = document.querySelector("#order");
-
 let word;
 let newWord;
 const onClickButton = () => {
