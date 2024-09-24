@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cart-table {
+  background-color: white;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+.cart-table th {
+  color: #5e94b8;
+}
+
+.cart-table th:nth-child(2) {
+  width: 400px;
+}
+
+.cart-table td,
+.cart-table th {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+}
+
+.cell-long {
+  width: 300px;
+}
